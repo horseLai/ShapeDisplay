@@ -99,9 +99,7 @@ public class MainActivity extends AppCompatActivity
 
     private void initViews()
     {
-
-        //Drawable drawable = RoundedBitmapDrawable.createFromPath(picPath);
-
+        ivBottom.setImageResource(R.drawable.image79);
 
         // 初始化矩阵向量
         final float[] colorMatrix = new float[]{
@@ -238,7 +236,7 @@ public class MainActivity extends AppCompatActivity
             }
 
         } else {
-            ivBottom.setImageResource(R.mipmap.ic_launcher);
+            ivBottom.setImageResource(R.drawable.image79);
         }
 
 
