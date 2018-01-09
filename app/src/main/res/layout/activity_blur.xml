@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context="com.example.laixiaolong.pichandler.BlurActivity">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <com.example.shapeimagedisplay.widgets.ShapeImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/image79"
+                app:borderWidth="6dp"
+                app:radius="30dp"
+                />
+
+            <com.example.shapeimagedisplay.widgets.ShapeImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/image79"
+                app:radius="20dp"
+                />
+
+            <com.example.shapeimagedisplay.widgets.ShapeImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/image79"
+                app:radius="20dp"
+                />
+
+            <com.example.shapeimagedisplay.widgets.ShapeImageView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/image79"
+                app:radius="20dp"
+                />
+
+            <com.example.shapeimagedisplay.widgets.ShapeImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/image79"
+                app:radius_left_top="20dp"
+                />
+
+            <com.example.shapeimagedisplay.widgets.ShapeImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/image79"
+                app:borderWidth="5dp"
+                app:radius_left_top="20dp"
+                />
+
+            <com.example.shapeimagedisplay.widgets.ShapeImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/image79"
+                app:radius_left_bottom="20dp"
+                />
+
+            <com.example.shapeimagedisplay.widgets.ShapeImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/image79"
+                app:radius_right_top="20dp"
+                />
+
+            <com.example.shapeimagedisplay.widgets.ShapeImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/image79"
+                app:radius_right_bottom="20dp"
+                />
+
+            <com.example.shapeimagedisplay.widgets.ShapeImageView
+                android:id="@+id/circleImg"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/image79"
+                app:asCircle="true"
+                />
+
+            <com.example.shapeimagedisplay.widgets.ShapeImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/image79"
+                app:asCircle="true"
+                app:borderWidth="5dp"
+                />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.example.shapeimagedisplay.widgets.ShapeLayout
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="3dp"
+                app:radius="30dp"
+                >
+
+                <ImageView
+                    android:id="@+id/ivLayer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/image79"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="测试文字测试文字"
+                    android:textColor="@android:color/black"
+                    />
+
+            </com.example.shapeimagedisplay.widgets.ShapeLayout>
+
+            <com.example.shapeimagedisplay.widgets.ShapeLayout
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="3dp"
+                app:asCircle="true"
+                app:borderWidth="5dp"
+                app:borderColor="@android:color/white"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/image79"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="测试文字测试文字"
+                    android:textColor="@android:color/black"
+                    />
+
+            </com.example.shapeimagedisplay.widgets.ShapeLayout>
+
+
+            <com.example.shapeimagedisplay.widgets.ShapeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                app:radius_left_bottom="30dp"
+                >
+
+                <ImageView
+                    android:id="@+id/iv"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/image79"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/iv"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="测试文字"
+                    android:textColor="@android:color/black"
+                    />
+
+            </com.example.shapeimagedisplay.widgets.ShapeLayout>
+
+
+            <com.example.shapeimagedisplay.widgets.ShapeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                app:borderColor="@color/colorPrimary"
+                app:borderWidth="5dp"
+                app:radius="30dp"
+                >
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/image79"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="测试文字"
+                    android:textColor="@android:color/black"
+                    />
+
+            </com.example.shapeimagedisplay.widgets.ShapeLayout>
+
+            <com.example.shapeimagedisplay.widgets.ShapeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                app:radius="30dp"
+                >
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/image79"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="测试文字"
+                    android:textColor="@android:color/black"
+                    />
+
+            </com.example.shapeimagedisplay.widgets.ShapeLayout>
+
+            <com.example.shapeimagedisplay.widgets.ShapeLayout
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_margin="3dp"
+                app:radius_right_bottom="30dp"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/image79"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="测试文字"
+                    android:textColor="@android:color/black"
+                    />
+
+            </com.example.shapeimagedisplay.widgets.ShapeLayout>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>
