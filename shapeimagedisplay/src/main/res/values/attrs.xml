@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="radius_left_top" format="dimension"/>
+    <attr name="radius_left_bottom" format="dimension"/>
+    <attr name="radius_right_top" format="dimension"/>
+    <attr name="radius_right_bottom" format="dimension"/>
+    <attr name="radius" format="dimension"/>
+    <attr name="asCircle" format="boolean"/>
+    <attr name="borderWidth" format="dimension"/>
+    <attr name="borderColor" format="color"/>
+
+    <declare-styleable name="ShapeImageView">
+        <attr name="radius_left_top"/>
+        <attr name="radius_left_bottom"/>
+        <attr name="radius_right_top"/>
+        <attr name="radius_right_bottom"/>
+        <attr name="radius"/>
+        <attr name="asCircle"/>
+        <attr name="borderWidth"/>
+        <attr name="borderColor"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="ShapeLayout">
+        <attr name="radius_left_top"/>
+        <attr name="radius_left_bottom"/>
+        <attr name="radius_right_top"/>
+        <attr name="radius_right_bottom"/>
+        <attr name="radius"/>
+        <attr name="asCircle"/>
+        <attr name="borderWidth"/>
+        <attr name="borderColor"/>
+    </declare-styleable>
+
+</resources>
